@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3.9
 # CUSTOM LAMBDA FUNCTION
 
 import json

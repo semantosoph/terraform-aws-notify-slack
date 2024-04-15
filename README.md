@@ -8,7 +8,7 @@ Doing serverless with Terraform? Check out [serverless.tf framework](https://ser
 
 ## Supported Features
 
-- AWS Lambda runtime Python 3.8
+- AWS Lambda runtime Python 3.9
 - Create new SNS topic or use existing one
 - Support plaintext and encrypted version of Slack webhook URL
 - Most of Slack message options are customizable
@@ -38,11 +38,11 @@ module "notify_slack" {
 
 [Terraform Cloud Agents](https://www.terraform.io/docs/cloud/workspaces/agent.html) are a paid feature, available as part of the Terraform Cloud for Business upgrade package.
 
-This module requires Python 3.8. You can customize [tfc-agent](https://hub.docker.com/r/hashicorp/tfc-agent) to include Python using this sample `Dockerfile`:
+This module requires Python 3.9. You can customize [tfc-agent](https://hub.docker.com/r/hashicorp/tfc-agent) to include Python using this sample `Dockerfile`:
 
 ```
 FROM hashicorp/tfc-agent:latest
-RUN apt-get -y update && apt-get -y install python3.8 python3-pip
+RUN apt-get -y update && apt-get -y install python3.9 python3-pip
 ENTRYPOINT ["/bin/tfc-agent"]
 ```
 

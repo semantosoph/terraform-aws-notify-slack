@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.3.0](https://github.com/semantosoph/terraform-aws-notify-slack/compare/v6.2.0...v6.3.0) (2024-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Moved runtime from python3.8 to python3.9
+
 ## [6.2.0](https://github.com/semantosoph/terraform-aws-notify-slack/compare/v6.1.2...v6.2.0) (2024-04-15)
 
 
