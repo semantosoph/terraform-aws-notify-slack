@@ -156,12 +156,6 @@ variable "recreate_missing_package" {
   default     = true
 }
 
-variable "log_events" {
-  description = "Boolean flag to enabled/disable logging of incoming events"
-  type        = bool
-  default     = false
-}
-
 variable "reserved_concurrent_executions" {
   description = "The amount of reserved concurrent executions for this lambda function. A value of 0 disables lambda from being triggered and -1 removes any concurrency limitations"
   type        = number
